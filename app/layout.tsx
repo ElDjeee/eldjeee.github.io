@@ -4,7 +4,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
 	title: "Portfolio",
-	description: "Personal Portfolio website.",
+	description: "Yanis Djermouni's portfolio.",
 	icons: {
 		icon: "/favicon.ico",
 	},
