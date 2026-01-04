@@ -24,11 +24,11 @@ const BackgroundGrid: React.FC<BackgroundGridProps> = ({
 		const highlights = highlightsRef.current;
 
 		const palette = [
-			"rgba(50, 206, 162, 0.35)",
-			"rgba(95, 204, 45, 0.35)",
-			"rgba(24, 167, 95, 0.35)",
-			"rgba(35, 114, 84, 0.35)",
-			"rgba(68, 172, 108, 0.35)",
+			"rgba(50, 206, 162, 0.25)",
+			"rgba(95, 204, 45, 0.25)",
+			"rgba(24, 167, 95, 0.25)",
+			"rgba(35, 114, 84, 0.25)",
+			"rgba(68, 172, 108, 0.25)",
 		];
 
 		const makeKey = (x: number, y: number) => `${x},${y}`;
