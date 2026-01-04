@@ -18,7 +18,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
 	if (isEducation) {
 		const educationItem = item as EducationItem;
 		return (
-			<Card variant="default" key={index} className="my-5 max-w-md min-w-full">
+			<Card variant="default" key={index} className="my-5 max-w-md min-w-full education-card">
 				<h3 className="text-lg font-bold text-gray-800">
 					<a
 						href={educationItem.link}
@@ -48,7 +48,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
 	} else {
 		const experienceItem = item as ExperienceItem;
 		return (
-			<Card variant="default" key={index} className="my-5 max-w-md min-w-full">
+			<Card variant="default" key={index} className="my-5 max-w-md min-w-full experience-card">
 				<h3 className="text-lg font-bold text-gray-800">
 					<a
 						href={experienceItem.link}
