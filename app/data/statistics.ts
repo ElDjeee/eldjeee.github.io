@@ -42,7 +42,7 @@ export const statistics: Statistics = {
 	"Cryptanalyst Intern": {
 		stats: [
 			{ label: "decrypted", value: "Successfully", ...statColors.mint },
-			{ label: "without paracetamol :)", value: "Translated", ...statColors.peach },
+			{ label: "without painkillers :)", value: "Translated", ...statColors.peach },
 		],
 	},
 	"MASTER": {
