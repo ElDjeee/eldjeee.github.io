@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = ({ isSnakeActive, onSnakeToggle }) => {
 	return (
 		<div className="HeroContainer">
 			<h1 className="text-4xl font-bold mb-2">Hi, I'm Yanis</h1>
-			<h2 className="text-2xl font-regular mb-4">Software Engineer</h2>
+			<h2 className="text-2xl font-regular mb-4">Machine Learning Engineer</h2>
 			<Navbar isSnakeActive={isSnakeActive} onSnakeToggle={onSnakeToggle} />
 		</div>
 	);
