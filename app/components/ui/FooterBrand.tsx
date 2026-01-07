@@ -4,7 +4,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 const FooterBrand: React.FC = () => {
 	return (
 		<div className="footer-section brand-section">
-			<h3 className="footer-brand">PERSONAL GIT</h3>
+			<h3 className="footer-brand">PERSONAL PORTFOLIO</h3>
 			<p className="footer-tagline">Software & AI</p>
 			<p className="footer-description">
 				Passionate about impact, quality, and innovation for good.
