@@ -6,9 +6,9 @@ const languageColors = {
 	CCpp: { backgroundColour: "rgba(165, 86, 218, 0.5)" },
 	RaspberryPi: { backgroundColour: "rgba(223, 104, 201, 0.5)" },
 	Cuda: { backgroundColour: "rgba(118, 185, 0, 0.5)" },
-	Mantine: { backgroundColour: "rgba(123, 208, 223, 0.5)" },
+	LangChain: { backgroundColour: "rgba(123, 208, 223, 0.5)" },
 	TypeScript: { backgroundColour: "rgba(134, 122, 240, 0.5)" },
-	RAGAI: { backgroundColour: "rgba(167, 167, 167, 0.5)" },
+	MCP: { backgroundColour: "rgba(167, 167, 167, 0.5)" },
 	VectorDB: { backgroundColour: "rgba(167, 167, 167, 0.5)" },
 	ReinforcementLearning: { backgroundColour: "rgba(105, 96, 231, 0.5)" },
 	MachineLearning: { backgroundColour: "rgba(214, 224, 66, 0.5)" },
@@ -67,7 +67,19 @@ export const projects: Project[] = [
 			{ name: "Cuda", ...languageColors.Cuda },
 		],
 		description:
-			"Implementation of a 3D Rendering Engine (Path Tracing).",
+			"Implemented a 3D rendering engine based on path tracing.",
 		github: "https://github.com/ElDjeee/Ray-Tracer",
+	},
+	{
+		title: "Edwin",
+		languages: [
+			{ name: "AI", ...languageColors.AI },
+			{ name: "Python", ...languageColors.Python },
+			{ name: "MCP", ...languageColors.MCP },
+			{ name: "LangChain", ...languageColors.LangChain },
+		],
+		description:
+			"Developing an open-source personal agent capable of interacting with both the computer and the web.",
+		github: "https://github.com/ElDjeee/edwin",
 	},
 ];
